@@ -2,7 +2,7 @@
 public class Intro_Cube {
 
 	public static void main(String[] args) {
-		// This class uses code to calculate the area and volume of a cube. (August 30, 2024)
+		/* My name is Tracey and this class uses code to calculate the area and volume of a cube. (August 30, 2024)*/
 		
 		// declare a side length as an int
 		// calculate its surface area
