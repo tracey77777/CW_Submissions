@@ -1,16 +1,16 @@
-
+ 
 public class Intro_Cube {
 
 	public static void main(String[] args) {
 		/* My name is Tracey and this class uses code to calculate the area and volume of a cube. (August 30, 2024)*/
 		
-		// declare a side length as an int
+		// declare a side length as a double
 		// calculate its surface area
 		// calculate its volume
-		// print its values as doubles
+		// print its values as int
 		// well documented
 		
-		// this declares a side length as an int
+		// this declares a side length as an double
 		double side = 2;
 		//this calculates the area of the already declared side and declares it as "area"
 		double area = 6*(side*side);
