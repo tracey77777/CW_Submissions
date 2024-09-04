@@ -18,7 +18,7 @@ public class Practicing_System_and_Primitives {
 		// Example output: 0.531496062992126
 		System.out.println(((6.0*3.5)-(1.5*5))/(55.6-30.2));
 		// Task 3: Write adaptable code that will print out the circumference and area of a circle that has a radius of 4.0. (Hint: the value of pi is 3.14 and it never changes)
-		double pi=(3.14);
+		final double pi=(3.14);
 		double circ=(2.0*4.0);
 		int area=(4*4);
 		System.out.print("The circumference of the circle is ");
