@@ -1,7 +1,6 @@
-/* My name is Tracey Ly and I created this class on 9/13/24 to practice non-void methods. These were my tasks: Create a non-void method called stateName() that prints out your name. Repeat this task for stateEyeColor(), stateHairStyle(), stateBestFriend(), and stateFavoriteFood(). Then, call stateName(), stateHairStyle, and stateFavoriteFood().
- *Create a method printCircleStats() that is passed a double (meant to represent a circle's radius) and calculates then prints out the radius, diameter, circumference, and area of the circle. Call the method to make sure it works. 
- *Create a method printMathStuffs() that is passed two ints and prints their sum, difference, product, quotient, and the remainder (using modulus) of the first number modulus the second number. Call it to make sure it works. 
- */
+/* My name is Tracey Ly and I created this class on 9/13/24 to practice non-void methods. These were my tasks: Create a nonvoid method called stateName() that returns your name. Repeat this task for stateEyeColor(), stateHairStyle(), stateBestFriend(), and stateFavoriteFood(). Then, call stateName(), stateHairStyle, and stateFavoriteFood(). Use the calls to make a full print statement. 
+Create a nonvoid method printCircleStats() that is passed a double (meant to represent a circle's radius) and calculates then returns the radius, diameter, circumference, and area of the circle. Call the method in a print statement or variable declaration in order to make a complete print statement of all the properties. 
+Create nonvoid methods that are passed two ints and returns their sum, difference, product, quotient, and the remainder (using modulus) of the first number modulus the second number; all operations should be their own respective methods. Call them inside print statements to make sure they work. */
 public class Non_Void_Method_Practice {
 	//the return statement exits your method (anything after the line of "return" is dead code (won't work))
 
