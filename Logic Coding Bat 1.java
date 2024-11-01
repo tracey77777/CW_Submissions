@@ -35,27 +35,9 @@ public int dateFashion(int you, int date) {
 
 
 public int caughtSpeeding(int speed, boolean isBirthday) {
-  if (isBirthday)
+if (!isBirthday)
   {
-    if (speed <= 65)
-    {
-      return 0;
-    }
-    if (speed <= 85 && speed >= 61)
-    {
-      return 1;
-    }
-    if (speed >= 86)
-    {
-      return 2;
-    }
-
-  }
-  
-   
-  else 
-  {
-    if (speed <= 60)
+      if (speed <= 60)
     {
       return 0;
     }
@@ -66,10 +48,34 @@ public int caughtSpeeding(int speed, boolean isBirthday) {
     if (speed >= 81)
     {
       return 2;
+    } 
+    else
+    {
+     return 0;
     }
   }
-    
+  if (isBirthday)
+  {
+      if (speed <= 65)
+    {
+      return 0;
+    }
+    if (speed <= 85 && speed >= 61)
+    {
+      return 1;
+    }
+    if (speed >= 86)
+    {
+      return 2;
+    } 
+    else
+    {
+    return 0;
+    }
 }
+return 0;
+}
+
 
 
 
@@ -89,5 +95,16 @@ public boolean squirrelPlay(int temp, boolean isSummer) {
 
 
 
+
+
+
+
+public int sortaSum(int a, int b) {
+  if (a + b >= 10 && a + b <= 19)
+  {
+    return 20;
+  }
+  return a + b;
+}
 
 
