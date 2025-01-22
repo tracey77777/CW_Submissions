@@ -1,3 +1,6 @@
+/*
+* subtracts 5 from each element of the array
+*/
 
 public class Altering_Arrays {
 
@@ -10,7 +13,9 @@ public class Altering_Arrays {
 
 	public static int[] subtract5FromAll4(int[] arr)
 	{
-		int[] copyArr = new int[arr.length];
+		//new array that's the same length as the original
+		int[] copyArr = new int[arr.length]; 
+		//will traverse through each element
 		for (int i = 0; i < arr.length; i++)
 		{
 			copyArr[i] = arr[i] - 5;
