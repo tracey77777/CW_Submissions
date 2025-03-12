@@ -67,8 +67,8 @@ public class converting_array_to_array_list
 				if (nums.get(i) > nums.get(i+1))
 				{
 					int temp = nums.get(i);
-					nums.set(nums.get(i), nums.get(i+1));
-					nums.set(nums.get(i+1), temp);
+					nums.set((i), nums.get(i+1));
+					nums.set((i+1), temp);
 					counter++;
 				}
 			}
