@@ -6,6 +6,8 @@ public class Tic_Tac_Toe
 {
 	static Scanner gameReader = new Scanner (System.in);
 	
+	static int counter = 0;
+	
 	public static void main(String[] args) 
 	{
 	
@@ -115,7 +117,10 @@ public class Tic_Tac_Toe
 			printGrid(nums);
 		}
 		//will allow the game to go to player X's first turn
+		counter++;
 		playerX(nums);
+		
+		
 		
 	}
 	
@@ -240,6 +245,7 @@ public class Tic_Tac_Toe
 			System.out.println("");
 		}
 		//will allow the game to go back and forth
+		counter++;
 		nextO(nums);
 		
 		
@@ -375,6 +381,7 @@ public class Tic_Tac_Toe
 			}
 			
 			//will allow the game to go back and forth and detect a win
+			counter++;
 			if (!gameOver(nums))
 			{
 				nextX(nums);
@@ -504,6 +511,7 @@ public class Tic_Tac_Toe
 				System.out.println("");
 			}
 			//will allow the game to go back and forth and detect a win
+			counter++;
 			if (!gameOver(nums))
 			{
 				nextO(nums);
@@ -585,8 +593,18 @@ public class Tic_Tac_Toe
 				return true;
 			}
 			
+			//tie
+			else if (counter == 9)
+			{
+				System.out.println("It's a tie. WOMP WOMP.");
+				return true;
+				
+			}
+			
 			return false;
 			
 		}
+		
+	
 
 }
